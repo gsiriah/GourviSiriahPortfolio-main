@@ -1,0 +1,58 @@
+
+.certificates-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr); 
+    align-items: center; 
+    gap: 20px;
+    margin: 0 auto; 
+    max-width: 1200px; 
+    margin-bottom: 0px;
+}
+
+.certificate-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 800px; 
+    max-height: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+}
+
+
+.certificate-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0; 
+    padding: 20px;
+}
+
+.certificate-card .contentProject{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    margin-left: 20px;
+    gap: 0px;
+}
+
+.badge-grid{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    margin: 20px auto;  
+    margin-bottom: 0px;
+}
+
+
+.badge-grid img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto; 
+    padding: 10px;
+}

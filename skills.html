@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <title>Gourvi Siriah</title>
+  <link rel="stylesheet" type="text/css" href="css/skills.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul id="navbar" >
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="skills.html" class="active">Skills</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="Experience.html">Experience</a></li>                
+                <li><a href="contact.html">Contact</a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </nav>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+
+    </header>
+
+
+  <section class="skills section-p1" id="skills-section">
+    <div class="section-headings">
+      <h2 class="section-h2">Skills & Languages</h2>
+      <p class="section-description">Proficient in C++, SQL, HTML, CSS, and JavaScript. Experienced in MERN-stack web development. Adept in Web Development development, with abilities in RESTful API integration, security, and testing.</p>
+    </div>
+    <div id="skills-container"></div>
+  </section>
+
+  
+
+  <footer>
+    <div class="footer-container">
+        <div class="footer-content">
+                <div class="quick-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="certifications.html">Certifications</a></li>
+                        <li><a href="Experience.html">Experience</a></li>                
+                        <li><a href="contact.html">Contact</a></li>
+
+                    </ul>
+                </div>
+                <div class="portfolio-links">
+                    <h4>Portfolio</h4>
+                    <ul>
+                        <li><a href="#">Frontend Development</a></li>
+                        <li><a href="#">MERN Stack Development</a></li>
+                        <li><a href="#">Website Design</a></li>
+                        <li><a href="#">Software Development</a></li>
+                        <li><a href="#">Problem Solving & DSA</a></li>
+                    </ul>
+                </div>
+                <div class="connect">
+                    <h4>Connect</h4>
+                    <ul>
+                        <a href="https://github.com/gsiriah"><li><i class="ri-github-fill"></i></li></a>
+                            <a href="https://www.linkedin.com/in/gourvi-siriah-775473247/"><li><i class="ri-linkedin-fill"></i></li></a>
+                    </ul>
+                </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Copyright, All Right Reserved</p>
+        </div>
+    </div>
+</footer>
+
+
+  <script src="JavaScript/skills.js"></script>
+  <script type="text/javascript">
+    
+
+const bar = document.getElementById('bar');
+const nav = document.getElementById('navbar');
+const close = document.getElementById('close');
+
+if(bar){
+    bar.addEventListener('click',
+        () =>
+        {
+            nav.classList.add('active');
+        }
+    )
+}
+
+if(close){
+    close.addEventListener('click',
+        () =>
+        {
+            nav.classList.remove('active');
+        }
+    )
+}
+
+  </script>
+</body>
+
+</html>
